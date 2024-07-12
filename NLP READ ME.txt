@@ -1,0 +1,41 @@
+library versions used:
+
+!pip install pandas==2.0.3
+!pip install scipy==1.13.0
+!pip install matplotlib==3.8.4
+!pip install seaborn==0.13.2
+!pip install scikit-learn==1.4.0
+!pip install torch==2.2.1
+!pip install skorch==0.15.0
+!pip install joblib==1.4.0
+!pip install tensorflow==2.15
+!pip install nltk==3.8.1
+!pip install spacy==3.7.4
+!python -m spacy download en_core_web_sm
+!pip install transformers==4.40.1
+!pip install gensim==4.3.2
+!pip install datasets==2.19.0
+!pip install nltk contractions==0.1.73
+
+
+
+links to colab notebooks:
+
+training: https://colab.research.google.com/drive/1lxcvMShKN8mwTWsQr7zS-Izg8KVNt7Km?usp=sharing
+testing: https://colab.research.google.com/drive/1YVhAwD09r_MnIgLpr78qWysUzCbbVdlu?usp=sharing
+
+
+
+quick summary on how to run testing notebook in google colab:
+
+1. open the note book in colab
+
+2. install the relevant libraries if not already installed. packaged are already in the script you would just need to run the code ideally in a new environment if you dont want your own libraries overwritten
+
+3. upload the submitted vectorizer, mlp and svm job libs so that the models are ready to be used. please wait for the uploads to complete (little circle on the bottom left) else you will run into errors
+
+4. data is directly pulled from hugging face and transformed so no need to worry about that.
+
+5. then you just need to hit run all cells and everything should run in a few seconds
+
+6. colab for some odd reason has troubling importing libraries like gridsearch even though sometimes it is able to do it. if you run into this error just comment it out. its not needed for the testing notebook
